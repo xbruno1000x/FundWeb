@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif; /*"Comic Sans MS", cursive, sans-serif;*/
+}
+/** HEADER **/
+#header-nav {
+  background-color: steelblue;
+  border-radius: 0;
+  border: 0;
+  /*border-bottom: 2px #154360 solid;*/
+}
+.navbar-hearder {
+	/*padding-bottom: 0; */
+}
+h1 { /* name */
+  color: white;
+  font-size: 1.5em;
+  margin-top: -5px;  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  /*border: 2px lightblue solid;*/
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: aliceblue;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: steelblue;
+  color: white;
+}
+#nav-list hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px lightsteelblue solid;
+}
+#collapsable-nav {
+	/*margin-top: -1px;*/
+	padding-bottom: 0;
+	padding-top: 0;
+	color: black;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+ }
+.navbar-toggle {
+	background: white;
+}
+#main-content {
+	margin-bottom: 50px;
+}
+#main-title {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.dishes {
+	background: #EBF5FB;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.dishes h3{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.dishes a {
+	margin-left: auto;
+	margin-right: auto;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#main-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
