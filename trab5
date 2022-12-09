@@ -1,0 +1,14 @@
+Resumo CSS
+O que é CSS?
+CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível
+CSS Orientado a objeto(OOCSS):
+É apenas uma “mudança de paradigma”. O que acontece na prática é que, ao usar um CSS orientado a objetos, temos padrões um pouco mais simples e melhores práticas implementadas.
+Então por que chamá-lo de orientado a objetos? A programação orientada a objetos (OOP) é um paradigma que usa "objetos" - estruturas de dados que consistem em campos de dados (os datafields) e métodos - e suas interações para projetar aplicações e programas de computador. 
+Se tivéssemos que dar uma definição final resumida do que é o OOCSS de fato, poderíamos dizer algo como: CSS orientado a objetos é um paradigma de codificação que usa estilos em “objetos” ou “módulos” – pedaços aninháveis de HTML que definem uma seção de uma página da web –robustos e reutilizáveis.
+SMACSS:
+O sistema estabelece e é bastante baseado em cinco categorias de regras de CSS: base, layout, module, state e a pouco importante theme. As regras de base são as do tipo que não utilizam seletores com classes ou ids, as encontramos em um CSS Reset ou normalize.css. O sistema alerta sobre a agressividade dos CSS Resets mas não alerta sobre as regras deste tipo definidas no próprio projeto, ainda mais quando aplicadas a divs, spans ou headings. Regras cujos seletores não utilizam classes são globais e qualquer decisão tomada neste nível irá perpetuar por todo o projeto, cuidado.
+BEM:
+BEM é uma metodologia, uma convenção, um padrão de nomenclatura que utilizamos para manter o nosso projeto simples e organizado. O principal objetivo dessa metodologia, além de manter os códigos simples na hora da escrita e (principalmente) da manutenção, é fazer com que qualquer desenvolvedor possa ter total autonomia para mexer em qualquer tipo de projeto — seja um projeto que você já conheça ou um projeto no qual você acabou de entrar.
+Essa metodologia é aplicada na nomenclatura das classes CSS dos nossos elementos HTML. A sigla BEM significa Block Element Modifier, em português, Bloco Elemento Modificador — esses 3 pilares são as bases dessa metodologia e também são as categorias nas quais vamos dividir nossos elementos.
+DRY CSS:
+A técnica, assim como outros sistemas, sugere que seu código seja pensando em termos de padrões de aparência. O problema está no fato da técnica não sugerir melhor uso das classes de CSS. Segundo o sistema, sempre que a aparência de um elemento mudar, sua classe precisará ser movida para outros agrupamentos nas folhas de estilo. Sistemas como SMACSS e BEM endereçam mudanças de aparência com a criação de um submódulo ou modificador que será adicionado ao HTML evidenciando a alteração e permitindo manter a antiga aparência.
