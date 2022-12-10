@@ -31,7 +31,7 @@ function replaceButton() {
     
 
 
-    let newText = change(text, novaword, word);
+    let newText = change(text, newword, word);
     p.innerHTML = newText;
 }
 
@@ -49,7 +49,7 @@ function runButton() {
 
     store(text);
 
-    maiorOcorrencia(store(text));
+    highestOccurrence(store(text));
     
 
 }    
