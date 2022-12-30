@@ -5,6 +5,12 @@
   font-family: sans-serif;
 }
 
+header nav a {
+    text-decoration: none; /* removendo o sublinhado do link dos menus */
+    margin-right: 10px; /* espaçamento entre o menu e o lado direito da tela e ente eles */
+    color: #dc1a28;
+}
+
 #text {
   display: none;
 }
